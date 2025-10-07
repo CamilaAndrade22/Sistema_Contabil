@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f9f9f9;
+}
+
+header {
+    background: #1E3A8A;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav {
+    text-align: center;
+    margin: 20px 0;
+}
+
+nav a {
+    display: inline-block;
+    margin: 10px;
+    padding: 12px 25px;
+    text-decoration: none;
+    color: white;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+nav a.cliente { background: #16A34A; }
+nav a.servico { background: #F97316; }
+nav a.lista { background: #374151; }
+
+form {
+    width: 400px;
+    margin: 20px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+form h2 {
+    margin-bottom: 20px;
+    color: #1E3A8A;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+form input {
+    width: 100%;
+    margin: 10px 0;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+form input:focus {
+    border-color: #1E3A8A;
+    outline: none;
+    box-shadow: 0 0 5px rgba(30, 58, 138, 0.5);
+}
+
+form button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    background: #1E3A8A;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+form button:hover {
+    background: #16337A;
+}
+
+table img {
+    cursor: pointer;
+    margin: 0 5px;
+    transition: transform 0.2s;
+}
+
+table img:hover {
+    transform: scale(1.2);
+}
+
+
+
+
